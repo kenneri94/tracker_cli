@@ -25,7 +25,7 @@ No external frameworks — only native Node.js modules and Yargs
 
 🚀 Getting Started
 1️⃣ Clone the repository
-git clone https://github.com/kenneri94/tracker_cli.git
+git clone https://github.com/kenneri94/tracker_cli
 cd task-tracker-cli
 
 2️⃣ Install dependencies
