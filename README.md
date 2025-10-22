@@ -1,3 +1,7 @@
+## 🌐 Project Page
+
+You can view the project here: [tracker_cli](https://github.com/kenneri94/tracker_cli)
+
 🧠 Task Tracker CLI
 
 A simple Command Line Interface (CLI) application built with Node.js and Yargs that helps you track, update, and manage tasks easily — directly from your terminal.
@@ -137,9 +141,5 @@ You are free to use, modify, and distribute it for personal or commercial purpos
 💡 Author
 Kennedy otieno
 🔗 EssaysHomeworkHelp.com
-
-## 🌐 Project Page
-
-You can view the project here: [tracker_cli](https://github.com/kenneri94/tracker_cli)
 
 📧 Feel free to fork, contribute, or report issues.
