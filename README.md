@@ -138,4 +138,8 @@ You are free to use, modify, and distribute it for personal or commercial purpos
 Kennedy otieno
 🔗 EssaysHomeworkHelp.com
 
+## 🌐 Project Page
+
+You can view the project here: [tracker_cli](https://github.com/kenneri94/tracker_cli)
+
 📧 Feel free to fork, contribute, or report issues.
