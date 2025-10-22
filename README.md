@@ -127,7 +127,8 @@ Now you can use it globally:
 task-cli add --description="Read a book"
 task-cli list
 
-🧑‍💻 Project Structure
+🧑‍💻 Project Structuretask-tracker-cli/
+
 task-tracker-cli/
 │
 ├── task-cli.js         # Main CLI script
