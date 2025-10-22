@@ -41,14 +41,12 @@ node task-cli.js <command> [options]
 ➕ Add a new task
 node task-cli.js add --description="Buy groceries"
 
-
 Output:
 
 ✅ Task added successfully (ID: 1)
 
 📝 Update a task
 node task-cli.js update --id=1 --description="Buy groceries and cook dinner"
-
 
 Output:
 
@@ -57,14 +55,12 @@ Output:
 🗑️ Delete a task
 node task-cli.js delete --id=1
 
-
 Output:
 
 🗑️ Task 1 deleted successfully.
 
 🚧 Mark as in-progress
 node task-cli.js mark-in-progress --id=1
-
 
 Output:
 
@@ -73,7 +69,6 @@ Output:
 ✅ Mark as done
 node task-cli.js mark-done --id=1
 
-
 Output:
 
 ✅ Task 1 marked as done.
@@ -81,10 +76,10 @@ Output:
 📋 List all tasks
 node task-cli.js list
 
-
 Output:
 
 📋 Task List:
+
 1. Buy groceries [TODO]
 2. Clean the house [IN-PROGRESS]
 3. Submit project [DONE]
@@ -99,11 +94,11 @@ node task-cli.js list --status=in-progress
 Each task stored in the JSON file includes:
 
 {
-  "id": 1,
-  "description": "Buy groceries",
-  "status": "todo",
-  "createdAt": "2025-10-16T13:00:00.000Z",
-  "updatedAt": "2025-10-16T13:00:00.000Z"
+"id": 1,
+"description": "Buy groceries",
+"status": "todo",
+"createdAt": "2025-10-16T13:00:00.000Z",
+"updatedAt": "2025-10-16T13:00:00.000Z"
 }
 
 ⚡ Make It a Global CLI (Optional)
@@ -113,14 +108,12 @@ You can make this CLI available globally so you can use task-cli directly from a
 Open your package.json and add:
 
 "bin": {
-  "task-cli": "./task-cli.js"
+"task-cli": "./task-cli.js"
 }
-
 
 Then run:
 
 npm link
-
 
 Now you can use it globally:
 
@@ -131,10 +124,10 @@ task-cli list
 
 task-tracker-cli/
 │
-├── task-cli.js         # Main CLI script
-├── tasks.json          # JSON file for storing tasks
-├── package.json        # Project metadata
-└── README.md           # Documentation
+├── task-cli.js # Main CLI script
+├── tasks.json # JSON file for storing tasks
+├── package.json # Project metadata
+└── README.md # Documentation
 
 🧾 License
 
